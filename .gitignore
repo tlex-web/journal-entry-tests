@@ -1,0 +1,27 @@
+
+# python files
+__pycache__/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# data files
+data/
+
+# results files
+results/
+
+# python package files
+*.pyc
+
+# virtual environments
+venv/
+
+# IDE files
+.idea/
+.vscode/
+
+
+
+
+
