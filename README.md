@@ -1,5 +1,3 @@
-# Journal Entry Test (JET)
-
 This is a template jupyter notebook to perform journal entry tests upon request of the financial audit team.
 
 ## Instructions
@@ -22,16 +20,16 @@ Once the virtual environment is activated, you need to install the dependencies.
 pip install -r requirements.txt
 ```
 
-Once the dependencies are installed, you can download the journal entry test template from the [JET repository]() and save it to your local machine. To do so, run the following command:
+Once the dependencies are installed, you can download the journal entry test template from the [JET repository](https://github.com/tlex-web/journal-entry-tests.git) and save it to your local machine. To do so, run the following command:
 
 ```bash
-git clone https://github.com/tlex-web/JET.git
+git clone https://github.com/tlex-web/journal-entry-tests.git
 ```
 
 You can now run the notebook. To do so, run the following command:
 
 ```bash
-jupyter notebook
+jupyter-lab
 ```
 
 Once the notebook is running, you can open the notebook by clicking on the `JET.ipynb` file in the file browser.
