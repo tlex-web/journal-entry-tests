@@ -108,6 +108,7 @@ The following dependencies are required to run the journal entry test:
 - [Jupyter Notebook latests release](https://jupyter.org/)
 - [Pandas latests release](https://pandas.pydata.org/)
 - [Numpy latests release](http://www.numpy.org/)
+- [Plotly latests release](https://plotly.com/)
 - [Matplotlib latests release](https://matplotlib.org/)
 - [Seaborn latests release](https://seaborn.pydata.org/)
 - [XlsxWriter latests release](https://xlsxwriter.readthedocs.io/)
