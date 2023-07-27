@@ -1,1 +1,1 @@
-{"booking_nr": 0, "line_nr": 1, "document_date": 2, "document_nr": 3, "debit_account": 4, "debit_amount": 5, "credit_account": 6, "credit_amount": 7, "description": 8, "currency": 9}
+{"booking_nr": 0, "line_nr": 1, "document_date": 2, "document_nr": 3, "debit_account": 4, "debit_amount": 5, "credit_account": 6, "credit_amount": 7, "description": 8, "currency": 9, "user": 10, "booking_date": 11, "document_source": 12}

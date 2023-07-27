@@ -2,7 +2,15 @@ This is a template jupyter notebook to perform journal entry tests upon request 
 
 ## Instructions
 
-First of all, you need to create a virtual environment for python using the `venv` module. To do so, open a command prompt and run the following command:
+Make sure that you are not saving this repository on a network drive, as this may cause issues with the virtual environment because the resolved network path may differ from the path used to create the virtual environment.
+
+First of all, you need to download the journal entry test template from the [JET repository](https://github.com/tlex-web/journal-entry-tests.git) and save it to your local machine. To do so, run the following command:
+
+```bash
+git clone https://github.com/tlex-web/journal-entry-tests.git
+```
+
+You need to create a virtual environment for python using the `venv` module. To do so, open a command prompt and run the following command, assuming you are in the root folder of the JET repository and have at least Python 3.10 installed on your machine:
 
 ```bash
 python.exe -m venv venv
@@ -11,19 +19,13 @@ python.exe -m venv venv
 Once the virtual environment is created, you need to activate it. To do so, run the following command:
 
 ```bash
-venv\Scripts\activate.bat
+\venv\scripts\activate.bat
 ```
 
 Once the virtual environment is activated, you need to install the dependencies. To do so, run the following command:
 
 ```bash
 pip install -r requirements.txt
-```
-
-Once the dependencies are installed, you can download the journal entry test template from the [JET repository](https://github.com/tlex-web/journal-entry-tests.git) and save it to your local machine. To do so, run the following command:
-
-```bash
-git clone https://github.com/tlex-web/journal-entry-tests.git
 ```
 
 You can now run the notebook. To do so, run the following command:
